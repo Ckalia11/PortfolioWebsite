@@ -3,7 +3,7 @@
  .container {
      margin: auto;
      max-width: 80%;
-     border: 1px solid black;
+     /* border: 1px solid black; */
      margin-top: 100px;
      margin-bottom: 100px;
  }
@@ -113,7 +113,7 @@
  }
 
  #name {
-    border: 0.0625rem solid #e0e0e0;
+    /* border: 0.0625rem solid #e0e0e0; */
     text-align: center;
     margin: 20px;
     /* left: 50%;
@@ -201,7 +201,7 @@
       color:#525252;
   }
 
-  .rap {
+  .programming_devicons {
     display: grid;
     grid-gap: 5rem;
     margin-top: 6rem;
@@ -217,7 +217,7 @@
 }
 
 @media only screen and (max-width: 900px){
-    .rap {
+    .programming_devicons {
         grid-template-columns: 100px 100px 100px;
         grid-template-areas:
         "fan foo faa"
@@ -229,7 +229,7 @@
 }
 
 @media only screen and (max-width: 600px){
-    .rap{
+    .programming_devicons{
         grid-template-columns: 100px 100px;
         grid-template-areas:
         "fan foo"
@@ -361,6 +361,7 @@ img {
 }
 
 .table_contents {
+    border: 1px solid black;
     margin-bottom: 0px;
     margin-top: 0px;
 }
