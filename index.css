@@ -176,13 +176,14 @@
 
  .header {
     font-family: 'Raleway', sans-serif;
-    font-size: 2rem;
+    /* font-size: 2rem; */
+    font-size: 4vw;
     text-align: center;
     
  }
 
 
- @media only screen and (max-width: 580px) {
+ /* @media only screen and (max-width: 580px) {
     .header {
         font-size: 1.5rem;
     }
@@ -192,15 +193,16 @@
      .header {
          font-size: 1.1rem;
      }
- } 
+ }  */
 
  .sub_header {
      font-family: 'Raleway', sans-serif;
-     font-size: 1.5em;
+     /* font-size: 1.5em; */
+     font-size: 2vw;
      text-align: center;
  }
 
-  @media only screen and (max-width: 675px){
+  /* @media only screen and (max-width: 675px){
      .sub_header {
         font-size: 1.25rem;
      }
@@ -216,7 +218,7 @@
     .sub_header {
         font-size: 0.7rem;
     }
- }
+ } */
 
  @media only screen and (max-width: 560px){
     #chetan_background {
