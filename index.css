@@ -5,8 +5,10 @@
      max-width: 80%;
      /* border: 1px solid black; */
      /* margin-top: 100px; */
-     margin-bottom: 100px;
-     margin-top:100px;
+     /* margin-bottom: 100px; */
+     /* margin-top:50px; */
+     padding-top: 50px;
+     padding-bottom: 50px;;
  }
 
  .panel {
@@ -14,12 +16,15 @@
      /* margin-top:2rem; */
  }
 
+ .whitesmoke {
+     background-color: whitesmoke;
+ }
+
  #panel_intro {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height:100vh; 
-    background-color: whitesmoke;
     /* background-color: #f2f2f2;  */
  }
 
@@ -83,11 +88,12 @@
 .logo a {
     font-family: 'Dancing Script', cursive;
     color:#00B4F1;
+    color: black;
     font-size: 1.5em;
 }
 
 .nav a {
-    font-family: 'Raleway', sans-serif;;
+    font-family: 'Raleway', sans-serif;
 }
 
 .nav a:hover{
@@ -163,7 +169,7 @@
 
  .header {
     font-family: 'Raleway', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
  }
 
@@ -202,9 +208,9 @@
 
  }
 
- #chetan_title {
+ /* #chetan_title {
     padding-top: 2rem;
- }
+ } */
 
  .chetan {
      display:flex;
@@ -212,6 +218,7 @@
 
  .chetan_picture {
      margin-left: 1rem;
+     /* border: 1px solid black; */
  }
  
  .chetan_description {
@@ -222,11 +229,15 @@
  }
  .chetan_description p {
      margin-top:0px;
+     max-width: 80%;
+     margin: auto;
+
  }
 
  .chetan_picture img {
      width: 300px;
      height:200px;
+     border-radius: 50%;
  }
 /* #name_slide {
     width: 200px;
@@ -390,12 +401,12 @@ i{
     display:none;
 }
 
-#experience_container {
+/* #experience_container {
     border-radius: 8px;
     background-color: #f2f2f2;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     padding: 15px;
-}
+} */
 
 #experience_title {
     display: flex;
