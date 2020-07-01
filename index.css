@@ -325,7 +325,7 @@
     font-size: 1.1rem; 
   }
 
-  .code :hover{
+  /* .code :hover{
       background-color: #60be86;
       color:white;
   }
@@ -333,7 +333,7 @@
   .code p:hover{
       background-color: white;
       color:#525252;
-  }
+  } */
 
   .programming_devicons {
     display: grid;
