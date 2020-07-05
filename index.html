@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -116,8 +125,7 @@
 
     <!-- HEADER -->
     <header>
-        <div class="head">
-            <div class="contain">
+            <div class="head">
                 <div class="logo">
                     <a href="#about">Chetan</a>
                 </div>
@@ -128,34 +136,26 @@
                    <a href="#Contact">Contact</a>
                </div>
             </div>
-        </div>
     </header>
 
-    <!-- INTRODUCTION -->
-    <div class = 'panel whitesmoke' id = 'panel_intro'>
-        <div class = 'container' id = 'name_slide'>
-            <div id = 'name'>
-                <p class = 'header'>Chetan Kalia</p>
-                <p class = 'sub_header'> Software developer based in Toronto</p>
-            </div>
+    <!-- FRONT PAGE -->
+    <div class = 'panel whitesmoke' id = 'front_page_panel'>
+        <div class = 'container' id = 'front_page_container'>
+              <p class = 'header'>Chetan Kalia</p>
+              <p class = 'sub_header'> Software developer based in Toronto</p>
         </div>
     </div>
 
-    <!-- PICTURE DESCRIPTION -->
+    <!-- DESCRIPTION -->
     <div class = 'panel'>
-        <div class="container" id = 'chetan_background'>
-            <p class = 'header' id = 'chetan_title'>A Few Words About me</p>
-            <div class="chetan">
-                <div class="chetan_picture">
-                    <img src="images/coffee.jpg" alt="Chetan Kalia"> 
-                </div>
-                <div class="chetan_description">
-                    <p class = 'sub_header'>Taking this course was such a rewarding experience. It helped me pursue my goals as a developer. I can't thank CodeStar enough for their services.</p>
+        <div class="container">
+            <p class = 'header'>About me</p>
+            <div class="description">
+                <img src="images/coffee.jpg" alt="Chetan Kalia"> 
+                <div class="description_text">
+                  <p class = 'sub_header'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis at velit quaerat eligendi reprehenderit unde eum vero amet incidunt laborum perspiciatis, quos doloremque suscipit, eveniet veniam sint reiciendis dolores labore.</p>
                 </div>             
             </div>
-        <!-- <div class = 'button'>
-            <button>Read more ></button>
-        </div> -->
     </div>
     </div>
 
@@ -163,7 +163,6 @@
     <div class = 'panel whitesmoke'>
         <div class = 'container'>
             <p class = 'header'>Skills</p>
-            <!-- <p class = 'sub_header'>Some of the popular languages I've worked with</p> -->
             <div class="programming_devicons" style = 'background-color: whitesmoke;'>
                 <div class="code fan"><i class="devicon-android-plain"></i><br><p>Android</p></div>
                 <div class="code foo"><i class="devicon-css3-plain"></i><p>CSS3</p></div>
@@ -180,113 +179,101 @@
             </div>
         </div>
     </div>
-    
 
-    <!-- INTRODUCTION -->
-    <!-- <div class = 'container' id = 'introduction'>
-        <p class = 'header'>Take a Few Seconds to Hear About the Author</p>
-        <div id = 'description'>
-            <div id = 'short_name'>
-                <p class = 'header'>Chetan Kalia</p>
-            </div>
-            <div id = 'hidden_description'>
-                <p class = 'header'>Hey, my name is Chetan Kalia and I am an aspiring software developer with a passion for using creativity to create truly amazing products.
-                </p>
-            </div>
-        </div>
-    </div> -->
+  <!-- Portfolio -->
 
-    <div class = 'panel'>
+    <div class = 'panel '>
         <div class = 'container'>
             <p class = 'header'>Portfolio</p>
             <!-- <p class = 'sub_header'>An Overview of my Experience as a Software Developer</p> -->
-            <div class = 'table_contents' style = 'margin-top:0px;'>
-                <div id = 'experience_title'>
-                    <div class = 'work_icon' id = 'chart'>
+            <div class = 'portfolio' style = 'margin-top:0px;'>
+                <div class = 'portfolio_header'>
+                  <div class = 'portfolio_title' id = 'mkz'>
+                    <p class = 'header'>Mackenzie Investments</p>
+                  </div>
+                    <div class = 'portfolio_icon' id = 'chart'>
                         <img src="images/statistics.png" alt="graph">
                     </div>
-                    <div id = 'MKZ'>
-                        <p class = 'header' id = 'job'>Mackenzie Investments</p>
-                    </div>
                 </div>
-                <div id = 'experience_content'>
-                    <p class = 'sub_header'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aperiam maxime explicabo nostrum minima incidunt dignissimos, sapiente autem ad iure molestias magnam, reiciendis, est quis expedita vero nulla eius rerum.</p>
+                <div id = 'portfolio_content'>
+                  <p class = 'sub_header'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aperiam maxime explicabo nostrum minima incidunt dignissimos, sapiente autem ad iure molestias magnam, reiciendis, est quis expedita vero nulla eius rerum.</p>
                 </div>
             </div>
-            <div class = 'table_contents'>
-                <div id = 'experience_title'>
-                    <div class = 'work_icon' id = 'chart'>
-                        <img src="images/portfolio.png" alt="Briefcase">
-                    </div>
-                    <div id = 'bmo'>
-                        <p class = 'header' id = 'job'>Bank of Montreal</p>
-                    </div>
-                </div>
-                <div id = 'experience_content'>
-                    <p class = 'sub_header'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aperiam maxime explicabo nostrum minima incidunt dignissimos, sapiente autem ad iure molestias magnam, reiciendis, est quis expedita vero nulla eius rerum.</p>
-                </div>
-            </div> 
-            <div class = 'table_contents'>
-                <div id = 'experience_title'>
-                    <div class = 'work_icon' id = 'briefcase'>
-                        <img src="images/chart.png" alt="chart">
-                    </div>
-                    <div id = 'raymond_james'>
-                        <p class = 'header' id = 'job'>Raymond James</p>
-                    </div>
-                </div>
-                <div id = 'experience_content'>
-                    <p class = 'sub_header'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aperiam maxime explicabo nostrum minima incidunt dignissimos, sapiente autem ad iure molestias magnam, reiciendis, est quis expedita vero nulla eius rerum.</p>
+            <div class = 'portfolio' style = 'margin-top:0px;'>
+              <div class = 'portfolio_header'>
+                <div class = 'portfolio_title' id = 'bmo'>
+                  <p class = 'header'>Bank of Montreal</p>
+              </div>
+                  <div class = 'portfolio_icon' id = 'chart'>
+                      <img src="images/portfolio.png" alt="graph">
+                  </div>
+              </div>
+              <div id = 'portfolio_content'>
+                  <p class = 'sub_header'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aperiam maxime explicabo nostrum minima incidunt dignissimos, sapiente autem ad iure molestias magnam, reiciendis, est quis expedita vero nulla eius rerum.</p>
+              </div>
+          </div> 
+          <div class = 'portfolio' style = 'margin-top:0px;'>
+            <div class = 'portfolio_header'>
+              <div class = 'portfolio_title' id = 'raymondjames'>
+                <p class = 'header'>Raymond James Ltd.</p>
+            </div>
+                <div class = 'portfolio_icon' id = 'chart'>
+                    <img src="images/chart.png" alt="graph">
                 </div>
             </div>
+            <div id = 'portfolio_content'>
+                <p class = 'sub_header'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aperiam maxime explicabo nostrum minima incidunt dignissimos, sapiente autem ad iure molestias magnam, reiciendis, est quis expedita vero nulla eius rerum.</p>
+            </div>
+        </div>
         </div>
     </div>
 
-    <div class = 'panel whitesmoke'>
-        <div class = 'container'>
-            <p class = 'header'>Projects</p>
-            <!-- <p class = 'sub_header'>An Overview of my Experience as a Software Developer</p> -->
-            <div class = 'table_contents' style = 'margin-top:0px;'>
-                <div id = 'experience_title'>
-                    <div class = 'work_icon' id = 'chart'>
-                        <img src="images/statistics.png" alt="graph">
-                    </div>
-                    <div id = 'MKZ'>
-                        <p class = 'header' id = 'job'>Mackenzie Investments</p>
-                    </div>
-                </div>
-                <div id = 'experience_content'>
-                    <p class = 'sub_header'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aperiam maxime explicabo nostrum minima incidunt dignissimos, sapiente autem ad iure molestias magnam, reiciendis, est quis expedita vero nulla eius rerum.</p>
-                </div>
-            </div>
-            <div class = 'table_contents'>
-                <div id = 'experience_title'>
-                    <div class = 'work_icon' id = 'chart'>
-                        <img src="images/portfolio.png" alt="Briefcase">
-                    </div>
-                    <div id = 'bmo'>
-                        <p class = 'header' id = 'job'>Bank of Montreal</p>
-                    </div>
-                </div>
-                <div id = 'experience_content'>
-                    <p class = 'sub_header'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aperiam maxime explicabo nostrum minima incidunt dignissimos, sapiente autem ad iure molestias magnam, reiciendis, est quis expedita vero nulla eius rerum.</p>
-                </div>
-            </div> 
-            <div class = 'table_contents'>
-                <div id = 'experience_title'>
-                    <div class = 'work_icon' id = 'briefcase'>
-                        <img src="images/chart.png" alt="chart">
-                    </div>
-                    <div id = 'raymond_james'>
-                        <p class = 'header' id = 'job'>Raymond James</p>
-                    </div>
-                </div>
-                <div id = 'experience_content'>
-                    <p class = 'sub_header'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aperiam maxime explicabo nostrum minima incidunt dignissimos, sapiente autem ad iure molestias magnam, reiciendis, est quis expedita vero nulla eius rerum.</p>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- Projects -->
+
+    <!-- <div class = 'panel'>
+      <div class = 'container'>
+        <p class = 'header'>Portfolio</p>
+          <div class = 'table_contents' style = 'margin-top:0px;'>
+              <div id = 'experience_title'>
+                  <div class = 'work_icon' id = 'chart'>
+                      <img src="images/statistics.png" alt="graph">
+                  </div>
+                  <div id = 'MKZ'>
+                      <p class = 'header' id = 'job'>Mackenzie Investments</p>
+                  </div>
+              </div>
+              <div id = 'experience_content'>
+                  <p class = 'sub_header'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aperiam maxime explicabo nostrum minima incidunt dignissimos, sapiente autem ad iure molestias magnam, reiciendis, est quis expedita vero nulla eius rerum.</p>
+              </div>
+          </div>
+          <div class = 'table_contents'>
+              <div id = 'experience_title'>
+                  <div class = 'work_icon' id = 'chart'>
+                      <img src="images/portfolio.png" alt="Briefcase">
+                  </div>
+                  <div id = 'bmo'>
+                      <p class = 'header' id = 'job'>Bank of Montreal</p>
+                  </div>
+              </div>
+              <div id = 'experience_content'>
+                  <p class = 'sub_header'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aperiam maxime explicabo nostrum minima incidunt dignissimos, sapiente autem ad iure molestias magnam, reiciendis, est quis expedita vero nulla eius rerum.</p>
+              </div>
+          </div> 
+          <div class = 'table_contents'>
+              <div id = 'experience_title'>
+                  <div class = 'work_icon' id = 'briefcase'>
+                      <img src="images/chart.png" alt="chart">
+                  </div>
+                  <div id = 'raymond_james'>
+                      <p class = 'header' id = 'job'>Raymond James Ltd.</p>
+                  </div>
+              </div>
+              <div id = 'experience_content'>
+                  <p class = 'sub_header'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aperiam maxime explicabo nostrum minima incidunt dignissimos, sapiente autem ad iure molestias magnam, reiciendis, est quis expedita vero nulla eius rerum.</p>
+              </div>
+          </div>
+      </div>
+  </div> -->
 
     <!-- EXPERIENCE TABLE -->
     <!-- <div class = 'panel'>
@@ -338,16 +325,16 @@
     </div> -->
 
     <!-- Contact Me -->
-    <div class = 'panel'>
+    <!-- <div class = 'panel whitesmoke'>
         <div class=" container">
             <p class = 'header'>Contact me</p>
             <form action="/action_page.php">
-              <div class="row">
+              <div class="row" >
                 <div class="col-25">
                   <label for="fname" class = 'sub_header'>Email Address</label>
                 </div>
                 <div class="col-75">
-                  <input type="text" id="email" class = 'input' name="email" placeholder="example@domain.com">
+                  <input type="text" id="email" class = 'input' name="email" style = 'max-width: 40%;border:none;border-bottom: 1px solid black'>
                 </div>
               </div>
               <div class="row">
@@ -355,7 +342,7 @@
                   <label for="lname" class = 'sub_header'>Subject</label>
                 </div>
                 <div class="col-75">
-                  <input type="text" id="subject" class = 'input' name="subject"  placeholder="Opportunity to work together" >
+                  <input type="text" id="subject" class = 'input' name="subject" style = 'max-width: 40%;border:none;border-bottom: 1px solid black'  >
                 </div>
               </div>
               <div class="row">
@@ -363,7 +350,7 @@
                   <label for="subject" class = 'sub_header'>Message</label>
                 </div>
                 <div class="col-75">
-                  <textarea id="message" name="message" class = 'input' placeholder="Hi there!" style="height:200px"></textarea>
+                  <textarea id="message" name="message" class = 'input'  style='max-width: 40%;border:none;border-bottom: 1px solid black;height:100px'></textarea>
                 </div>
               </div>
               <div class="row">
@@ -371,7 +358,7 @@
               </div>
             </form>
           </div>
-    </div>
+    </div> -->
 
     
 
